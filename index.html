@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="magnet">Vaishnavi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo magnet">Vaishnavi Likhe</div>
+        <div >
+            <ul class="nav-links">
+                 <li class="magnet"> <a href="#about">About</a></li>
+                 <li class="magnet"> <a href="#education">Academics</a></li>
+                 <li class="magnet"> <a href="#experience">Skills</a></li>
+                 <li class="magnet"> <a href="#projects">Projects</a></li>
+                 <li class="magnet"> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Vaishnavi Likhe</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <div class="menu-links">
+                <li class="magnet"> <a href="#about" onclick="toggleMenu()">About</a></li>
+                <li class="magnet"> <a href="#education" onclick="toggleMenu()">Academics</a></li>
+                <li class="magnet"> <a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li class="magnet"> <a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li class="magnet"> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/vaishnavi1.png" alt="vaish photo" srcset="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">
+                Hello, I'm
+            </p>
+            <h1 class="title magnet">Vaishnavi Likhe</h1>
+            <p class="section_text_p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Vaishnavi_Likhe_Resume_3.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="my Linkedin Profile" class="icon"
+                onclick="location.href='https://www.linkedin.com/in/vaishnavi-likhe-9b52a022a/'">
+                <img src="./assets/github.png" alt="my Github Profile" class="icon"
+                onclick="location.href='https://github.com/Vaish0202'">
+                <img src="./assets/leetcode.png" alt="my leetcode Profile" class="icon"
+                onclick="location.href='https://leetcode.com/Vaish_99/'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic_container">
+                <img src="./assets/vaishnavi photo.jpg" alt="Profile picture" class="about-pic about-img" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+                        <h1>Experience</h1>
+                        <p>Intern at <br /> GalaxE Solutions</p>
+                    </div>
+                    <div class="details-container ">
+                        <img src="./assets/education.png" alt="experience icon" class="icon"/>
+                        <h1>Education</h1>
+                        <p>BTech. Bachelors Degree <br /> at MIT Academy of Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container a">
+                    <p><b>Date of Birth:</b> 02 March, 2002<br>
+                        <b>Known Languages:</b> English, Hindi, Marathi <br>
+                        <b>Current Address:</b> 2399,Kalewadi,Alandi(D), Pune, Maharashtra, India - 412105 <br>
+                        <b>Phone Number:</b> 9172953578 <br>
+                        <b>Email:</b> Vaishnavilikhe2798@gmail.com
+                    </p>
+                    
+                </div>
+                <div class="text-container a text-animate">
+                    <p class="tag">A final year undergraduate with a passion for problem-solving and expertise in web development technologies, databases, and cloud computing, I am eager to expand my expertise and find a position where I can fully utilize my skills in the web development stack and cloud technologies. </p>
+                </div>
+            </div>
+
+            
+        </div>
+        
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#academics'" />
+        
+    </section>
+
+    <section id="academics">
+        <div class="hobbies-container article-container">
+            <h1 class="title">Hobbies</h1>
+            <div class="hobby-main color-container ">
+                <div class="hobby-element color-container ">
+                    <img src="./assets/reading.jpg" alt="hobby" class="hobby-img">
+                    <button class="btn btn-color-2 project-btn def" >
+                        Reading
+                    </button>
+                </div>
+                <div class="hobby-element color-container ">
+                    <img src="./assets/cooking.jpeg" alt="hobby" class="hobby-img">
+                    <button class="btn btn-color-2 project-btn def" >
+                        Cooking
+                    </button>
+                </div>
+                <div class="hobby-element color-container ">
+                    <img src="./assets/skeching.jpg" alt="hobby" class="hobby-img">
+                    <button class="btn btn-color-2 project-btn def" >
+                        Sketching
+                    </button>
+                </div>
+                <div class="hobby-element color-container ">
+                    <img src="./assets/music.jpg" alt="hobby" class="hobby-img">
+                    <button class="btn btn-color-2 project-btn">
+                        Music
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#education'" />
+    </section>
+
+    <section id="education">
+        <h1 class="title">Education</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/mitaoe.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >Btach: 8.14 CGPA</h2>
+                <h3 class="tag">MIT Academy of Engineering, Alandi, Pune</h3>
+                <div class="tag">Graduate of MIT Academy of Engineering, an esteemed institution established in 1999 by Prof. Dr. Vishwanath Karad, the Founder and Executive President of the renowned MIT Group. With specialization is in Computer Engineering, with a minor in Cloud Computing.</div>
+            </div>
+            <div class="details-container  color-container ">
+                <div class="article-container ">
+                    <img src="./assets/bharatEnglish.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >HSC: 84% </h2>
+                <h3 class="tag">Bharat New English School & Jr College, Pune</h3>
+                <div class="tag">Bharat English school and Junior College, Vidya Prasarini Sabha known as VPS by the people, was established on 3rd December, 1923. completed my Higher Secondary education from Bharat New English school with subjects - Physics, Chemistry, Mathematics, Biology.</div>
+            </div>
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/nmvv.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="margintop experience-sub-title project-title" >SSC: 92%</h2>
+                <!-- <div class="tag">92%</div> -->
+                <h3 class="tag">Navin Madyamik Vidyalaya, Markal, Pune</h3>
+                <div class="tag">Navin Makdyamik Vidyalaya was established in 2000. I studied at this school until the tenth grade and received a 92% on my Secondary School Certificate.</div>
+            </div></div>
+            
+
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#certifications'" />
+    </section>
+
+    <section id="certifications">
+        <h1 class="title">certifications</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/awscloud (1).jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >AWS Academy Graduate</h2>
+                <div class="tag"><a href="https://www.credly.com/badges/f929ead2-bbfe-4771-b5d3-a9b1ba2855b2/linked_in_profile">AWS Cloud Practitioner</a></div>
+            </div>
+            <div class="details-container  color-container ">
+                <div class="article-container ">
+                    <img src="./assets/cloud architecting.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >AWS Academy Graduate </h2>
+                <div class="tag"><a href="https://www.credly.com/badges/20f2ca09-4166-4fce-a3d2-ce44b107a4e2/public_url">AWS Cloud Architecting</a></div>
+            </div>
+            <div class="details-container  color-container ">
+                <div class="article-container ">
+                    <img src="./assets/networking.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >Cisco</h2>
+                <div class="tag"><a href="https://www.credly.com/badges/b57aee02-3e4f-4432-ab2b-decc15e9e0f9/linked_in_profile">Networking Essentials</a></div>
+            </div>
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/google readliness.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="margintop experience-sub-title project-title" >Google Cloud</h2>
+                <!-- <div class="tag">92%</div> -->
+                <div class="tag"><a href="https://www.cloudskillsboost.google/public_profiles/2417acb5-5c84-4d19-a963-b77b5262a05c">Google Cloud Career Readiness Program Certification</a></div>
+            </div>
+        </div>
+            
+
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    
+
+    
+
+    <section id="experience">
+        <p class="section_text_p1">
+            Explore my
+        </p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <!-- first container  -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>JDBC</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Data Structures</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>AWS Services</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>MYSQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>DevOps</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+
+                <!-- second container  -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Explore My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/bank.png" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >BEE</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vaish0202/Bee.git'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vaish0202/Bee.git'">
+                        Live Demo
+                    </button>
+                </div>
+                
+            </div>
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/estateelite.jpg" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" >Estate Elite</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:https://github.com/Vaish0202/estateelite.git'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:/https://github.com/Vaish0202/estateelite.git'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container ">
+                <div class="article-container">
+                    <img src="./assets/text.png" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="margintop experience-sub-title project-title" >TextOp</h2>
+                <div class="btn-container">
+                    <button class=" btn btn-color-2 project-btn" onclick="location.href='https:https://github.com/Vaish0202/textOp'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:https://github.com/Vaish0202/textOp'">
+                        Live Demo
+                    </button>
+                </div>
+            </div></div>
+            
+
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email" class="icon contact-icon email-icon" />
+                <p><a href="mailto:vaishnavilikhe2798@gmail.com">Vaishnavilikhe2798@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/vaishnavi-likhe-9b52a022a/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li class="magnet"> <a href="#about">About</a></li>
+                    <li class="magnet"> <a href="#academics">Academics</a></li>
+                    <li class="magnet"> <a href="#experience">Skills</a></li>
+                    <li class="magnet"> <a href="#projects">Projects</a></li>
+                    <li class="magnet"> <a href="#contact">Contact</a></li>
+               </ul>
+            </div>
+        </nav>
+        <p>Copyright&#169; 2024 Vaishnavi Likhe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js" integrity="sha512-g1j6pTQxNd1pZRKqxCPDEDg/QbDBNIvOgwo80Uew+V9xZweFEW4Hj4BlyvHKKAjze45oLDh5Ehe51UyZnwM2Jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+   <script src="script.js"></script> 
+</body>
+</html>
