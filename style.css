@@ -414,6 +414,7 @@ article .icon{
 }
 /* projects   */
 #projects{
+  margin-top: 5px;
     position: relative;
 }
 .color-container{
