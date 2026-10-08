@@ -1,0 +1,94 @@
+/* Developer / AI layer on top of style.css */
+:root{--mono:"JetBrains Mono","Fira Code",ui-monospace,Menlo,monospace;--acc:#2f6bff}
+body{background-image:radial-gradient(rgba(0,0,0,.09) 1px,transparent 1px);background-size:24px 24px}
+.section_text_p1{font-family:var(--mono);color:var(--acc);font-weight:500;font-size:.95rem}
+.title{letter-spacing:-.02em}
+#profile{height:auto;min-height:80vh;padding-top:2rem;padding-bottom:2rem}
+#role{font-family:var(--mono);font-weight:500}
+.caret{color:var(--acc);animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.term{margin:1.4rem auto 0;max-width:470px;text-align:left;background:#0f1420;border-radius:1rem;overflow:hidden;box-shadow:0 14px 34px rgba(15,20,32,.28)}
+.term-bar{display:flex;align-items:center;gap:6px;padding:.6rem .9rem;background:#171e2e;font:.75rem var(--mono);color:#8b97b1}
+.term-bar i{width:10px;height:10px;border-radius:50%;background:#3b4559}.term-bar span{margin-left:.5rem}
+.term pre{margin:0;padding:1rem 1.1rem;font:.8rem/1.65 var(--mono);color:#d6deeb;overflow-x:auto}
+.term .k{color:#c792ea}.term .f{color:#82aaff}.term .s{color:#c3e88d}.term .n{color:#f78c6c}.term .c{color:#637777}
+.dev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.5rem;margin:2rem 0}
+.dev-card{text-align:left;display:flex;flex-direction:column;gap:.6rem;transition:border-color .2s}
+.dev-card:hover{border-color:var(--acc)}
+.dev-card h2{font-size:1.15rem;margin:0}
+.dev-card .tag{font-size:.9rem}
+.path{font:.72rem var(--mono);color:#6b7280}
+.badge{font:500 .68rem var(--mono);color:var(--acc);border:1px solid var(--acc);border-radius:99px;padding:.1rem .5rem;margin-left:.4rem;vertical-align:middle}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{font:.74rem var(--mono);padding:.2rem .6rem;border:1px solid rgb(163,163,163);border-radius:99px;background:#fff}
+.dev-card .project-btn{width:auto;padding:.6rem 1.1rem;margin:.4rem .5rem 0 0}
+.sub-head{font:500 1rem var(--mono);color:var(--acc);text-align:center;margin:1rem 0 -1rem}
+@media(max-width:600px){.term pre{font-size:.7rem}}
+@media(prefers-reduced-motion:reduce){.caret{animation:none}}
+
+.proof{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem 1.2rem;margin:0 0 1.2rem;font:.78rem var(--mono);color:#6b7280}
+.proof b{color:var(--acc);font-weight:600}
+.arch{margin:1rem 0 2rem}.arch svg{width:100%;height:auto;color:#374151;display:block;margin-top:2.2rem}
+.arch .dash{fill:none;stroke:currentColor;stroke-opacity:.35;stroke-dasharray:5 5}
+.arch .bx rect{fill:#fff;stroke:currentColor;stroke-opacity:.5}.arch .bx .hi{stroke:var(--acc);stroke-opacity:1;stroke-width:1.6}
+.arch .tx{font:13px var(--mono);fill:currentColor}.arch .sm{font-size:11px;opacity:.7}
+.arch .ln path{fill:none;stroke:currentColor;stroke-width:1.5}
+#theme{position:fixed;right:1.2rem;bottom:1.2rem;z-index:50;width:2.8rem;height:2.8rem;border-radius:50%;border:1px solid rgb(163,163,163);background:#fff;color:#111;font-size:1.2rem;cursor:pointer}
+#theme:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+/* dark theme */
+[data-theme=dark] body{background-color:#0b0f19;color:#e6e9f2;background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px)}
+[data-theme=dark] p,[data-theme=dark] .tag{color:#aab2c5}
+[data-theme=dark] a{color:#e6e9f2}[data-theme=dark] a:hover{color:#8fb0ff}
+[data-theme=dark] .details-container{background:#121826;border-color:#2a3350}
+[data-theme=dark] .chip{background:#0f1420;border-color:#2a3350;color:#d6deeb}
+[data-theme=dark] .btn-color-2{color:#e6e9f2;border-color:#4a5578}
+[data-theme=dark] .btn-color-1{background:#2f6bff;border-color:#2f6bff}
+[data-theme=dark] .menu-links{background:#121826}[data-theme=dark] .hamburger-icon span{background:#e6e9f2}
+[data-theme=dark] .arrow,[data-theme=dark] .details-container>.icon{filter:invert(1)}
+[data-theme=dark] #socials-container .icon,[data-theme=dark] .contact-icon{background:#fff;border-radius:50%;padding:3px}
+[data-theme=dark] .arch svg{color:#aab2c5}[data-theme=dark] .arch .bx rect{fill:#121826}
+[data-theme=dark] #theme{background:#121826;color:#e6e9f2;border-color:#2a3350}
+[data-theme=dark] .proof{color:#8b97b1}
+
+/* editorial sections */
+.work,.xp-wrap,.pubs{max-width:900px;margin:2rem auto;text-align:left}
+.case{display:grid;grid-template-columns:3.2rem 1fr;gap:1rem;padding:2rem 0;border-top:1px solid rgba(128,128,128,.35)}
+.case:last-child{border-bottom:1px solid rgba(128,128,128,.35)}
+.case-n{font:500 .95rem var(--mono);color:var(--acc);padding-top:.35rem}
+.case-meta,.pub-y,.xp-when{font:.78rem var(--mono);color:#6b7280}
+.case h3{font-size:1.6rem;letter-spacing:-.02em;margin:.2rem 0 .5rem}
+.case-sum{font-size:1.05rem;margin-bottom:.7rem}
+.case-pts{margin:0 0 .8rem 1.1rem}.case-pts li{margin:.3rem 0;font-size:.95rem}
+.case-stack{font:.8rem var(--mono);color:var(--acc)}
+.case-links{display:flex;gap:1.2rem;margin-top:.7rem;font-weight:600}
+.case-links a{border-bottom:1px solid currentColor}
+.xp{display:grid;grid-template-columns:11rem 1fr;gap:1rem;padding:1.4rem 0;border-top:1px solid rgba(128,128,128,.35)}
+.xp h3{font-size:1.15rem;margin-bottom:.3rem}
+.skl{border-top:1px solid rgba(128,128,128,.35);padding-top:1.4rem}
+.skl>div{display:grid;grid-template-columns:11rem 1fr;gap:1rem;padding:.55rem 0}
+.skl dt{font:600 .85rem var(--mono)}.skl dd{font-size:.95rem}
+.pubs{list-style:none;padding:0}
+.pubs li{padding:1.4rem 0;border-top:1px solid rgba(128,128,128,.35)}.pubs li:last-child{border-bottom:1px solid rgba(128,128,128,.35)}
+.pubs a{display:block;font-size:1.15rem;font-weight:600;margin:.25rem 0}.pubs a:hover{color:var(--acc)}
+@media(max-width:700px){.case{grid-template-columns:1fr}.xp,.skl>div{grid-template-columns:1fr;gap:.2rem}}
+/* fix: containers must fill the section instead of shrinking to content */
+.work,.xp-wrap,.pubs{width:100%;box-sizing:border-box;align-self:center}
+.case-body,.xp>div:last-child{min-width:0}
+/* real cause: style.css sets `article{display:flex;width:10rem}`, which squeezed .case */
+.case{width:100%;gap:1rem}
+
+/* experience, capabilities, certifications */
+.xp-co{font:.85rem var(--mono);color:var(--acc);margin-bottom:1rem}
+.sub-head.left{text-align:left;margin:2rem 0 .5rem}
+.caps{border-top:1px solid rgba(128,128,128,.35)}
+.cap{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;padding:1.2rem 0;border-bottom:1px solid rgba(128,128,128,.35)}
+.cap h3{font-size:1.1rem;margin-bottom:.2rem}.cap p{font-size:.95rem}
+.cap-tools{font:.8rem/1.7 var(--mono);color:var(--acc);align-self:center}
+.certs{width:100%;max-width:900px;margin:2rem auto;text-align:left}
+.cert-row{display:flex;gap:1.5rem;align-items:center;padding:1.4rem 0;border-top:1px solid rgba(128,128,128,.35)}
+.cert-row:last-child{border-bottom:1px solid rgba(128,128,128,.35)}
+.cert-img{width:96px;height:96px;object-fit:contain;flex:none}
+.cert-row h3{font-size:1.2rem;margin:.2rem 0}
+.cert-verify{display:inline-block;margin-top:.5rem;font-weight:600;border-bottom:1px solid currentColor}
+.cert-verify[href=""]{display:none}
+@media(max-width:700px){.cap{grid-template-columns:1fr;gap:.4rem}.cert-row{flex-direction:column;align-items:flex-start}}

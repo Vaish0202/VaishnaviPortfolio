@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="magnet">Vaishnavi Portfolio</title>
+    <title class="magnet">Vaishnavi Likhe | AI Engineer</title>
+    <meta name="description" content="AI Engineer building agentic and LLM-powered systems. LangGraph, RAG, XGBoost, Spring Boot, React.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="dev.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1420'/%3E%3Ctext x='32' y='42' font-size='28' font-family='monospace' font-weight='bold' text-anchor='middle' fill='%232f6bff'%3EVL%3C/text%3E%3C/svg%3E">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vaishnavi Likhe | AI Engineer">
+    <meta property="og:description" content="Agentic AI, RAG and hybrid ML+LLM systems. Two published preprints.">
+    <meta property="og:url" content="https://vaishportfolio.netlify.app/">
+    <meta property="og:image" content="https://vaishportfolio.netlify.app/assets/vaishnavi1.png">
+    <meta name="twitter:card" content="summary">
+    <script>try{var t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.dataset.theme=t}catch(e){}</script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
 
 </head>
@@ -18,6 +29,7 @@
                  <li class="magnet"> <a href="#education">Academics</a></li>
                  <li class="magnet"> <a href="#experience">Skills</a></li>
                  <li class="magnet"> <a href="#projects">Projects</a></li>
+<li class="magnet"> <a href="#research">Research</a></li>
                  <li class="magnet"> <a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -37,6 +49,7 @@
                 <li class="magnet"> <a href="#education" onclick="toggleMenu()">Academics</a></li>
                 <li class="magnet"> <a href="#experience" onclick="toggleMenu()">Skills</a></li>
                 <li class="magnet"> <a href="#projects" onclick="toggleMenu()">Project</a></li>
+<li class="magnet"> <a href="#research">Research</a></li>
                 <li class="magnet"> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
@@ -51,7 +64,7 @@
                 Hello, I'm
             </p>
             <h1 class="title magnet">Vaishnavi Likhe</h1>
-            <p class="section_text_p2">Software Developer</p>
+            <p class="section_text_p2"><span id="role">AI Engineer</span><span class="caret">|</span></p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Vaishnavi_Likhe_Resume_3.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
@@ -64,11 +77,20 @@
                 <img src="./assets/leetcode.png" alt="my leetcode Profile" class="icon"
                 onclick="location.href='https://leetcode.com/Vaish_99/'">
             </div>
+            <div class="term" aria-label="Profile as code">
+                <div class="term-bar"><i></i><i></i><i></i><span>vaishnavi.py</span></div>
+<pre><span class="k">class</span> <span class="f">Engineer</span>:
+    name = <span class="s">"Vaishnavi Likhe"</span>
+    focus = [<span class="s">"agentic AI"</span>, <span class="s">"RAG"</span>, <span class="s">"ML"</span>]
+    stack = [<span class="s">"LangGraph"</span>, <span class="s">"XGBoost"</span>, <span class="s">"FastAPI"</span>, <span class="s">"React"</span>]
+    published = <span class="n">2</span>  <span class="c"># Zenodo preprints</span>
+    open_to = <span class="s">"AI / ML / Full-Stack roles"</span></pre>
+            </div>
         </div>
     </section>
 
     <section id="about">
-        <p class="section_text_p1">Get To Know More</p>
+        <p class="section_text_p1">// get to know more</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section_pic_container">
@@ -79,7 +101,7 @@
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon"/>
                         <h1>Experience</h1>
-                        <p>Intern at <br /> GalaxE Solutions</p>
+                        <p>AI Engineer at <br /> Endava Solutions</p>
                     </div>
                     <div class="details-container ">
                         <img src="./assets/education.png" alt="experience icon" class="icon"/>
@@ -87,18 +109,8 @@
                         <p>BTech. Bachelors Degree <br /> at MIT Academy of Engineering</p>
                     </div>
                 </div>
-                <div class="text-container a">
-                    <p><b>Date of Birth:</b> 02 March, 2002<br>
-                        <b>Known Languages:</b> English, Hindi, Marathi <br>
-                        <b>Current Address:</b> 2399,Kalewadi,Alandi(D), Pune, Maharashtra, India - 412105 <br>
-                        <b>Phone Number:</b> 9172953578 <br>
-                        <b>Email:</b> Vaishnavilikhe2798@gmail.com
-                    </p>
-                    
-                </div>
-                <div class="text-container a text-animate">
-                    <p class="tag">A final year undergraduate with a passion for problem-solving and expertise in web development technologies, databases, and cloud computing, I am eager to expand my expertise and find a position where I can fully utilize my skills in the web development stack and cloud technologies. </p>
-                </div>
+                <div class="text-container a"><p><b>Languages:</b> English, Hindi, Marathi <br><b>Email:</b> vaishnavilikhe0000@gmail.com <br><b>Based in:</b> Pune, open to Bangalore / Remote</p></div>
+                <div class="text-container a text-animate"><p class="tag">AI Engineer building agentic and LLM-powered systems that automate software testing. I grew from developer to tester to AI engineer, publish my research on Zenodo, and like turning manual workflows into reliable automation.</p></div>
             </div>
 
             
@@ -116,7 +128,7 @@
             <div class="about-containers">
             <div class="details-container color-container ">
                 <div class="article-container">
-                    <img src="./assets/mitaoe.jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/mitaoe.jpg" alt="MIT Academy of Engineering, Pune" class="project-img" />
                 </div>
                 <h2 class="experience-sub-title project-title" >Btach: 8.14 CGPA</h2>
                 <h3 class="tag">MIT Academy of Engineering, Alandi, Pune</h3>
@@ -124,7 +136,7 @@
             </div>
             <div class="details-container  color-container ">
                 <div class="article-container ">
-                    <img src="./assets/bharatEnglish.jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/bharatEnglish.jpg" alt="Bharat New English School, Pune" class="project-img" />
                 </div>
                 <h2 class="experience-sub-title project-title" >HSC: 84% </h2>
                 <h3 class="tag">Bharat New English School & Jr College, Pune</h3>
@@ -132,7 +144,7 @@
             </div>
             <div class="details-container color-container ">
                 <div class="article-container">
-                    <img src="./assets/nmvv.jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/nmvv.jpg" alt="Navin Madhyamik Vidyalaya, Markal" class="project-img" />
                 </div>
                 <h2 class="margintop experience-sub-title project-title" >SSC: 92%</h2>
                 <!-- <div class="tag">92%</div> -->
@@ -146,33 +158,34 @@
     </section>
 
     <section id="certifications">
-        <h1 class="title">certifications</h1>
+        <h1 class="title">Certifications</h1>
+<div class="certs"><div class="cert-row"><img class="cert-img" src="assets/cert-databricks.png" alt="Generative AI Engineer Associate badge" onerror="this.style.display='none'"><div><span class="pub-y">Databricks &middot; 2026</span><h3>Generative AI Engineer Associate</h3><p>Building LLM applications: prompting, RAG with vector search, evaluation and governance.</p><a class="cert-verify" href="" target="_blank" rel="noopener">Verify credential &#8599;</a></div></div><div class="cert-row"><img class="cert-img" src="assets/cert-aws-ai.png" alt="Certified AI Practitioner badge" onerror="this.style.display='none'"><div><span class="pub-y">AWS &middot; 2026</span><h3>Certified AI Practitioner</h3><p>AI, machine learning and generative AI fundamentals, and responsible AI on AWS.</p><a class="cert-verify" href="" target="_blank" rel="noopener">Verify credential &#8599;</a></div></div><div class="cert-row"><img class="cert-img" src="assets/cert-aws-cloud.png" alt="Certified Cloud Practitioner badge" onerror="this.style.display='none'"><div><span class="pub-y">AWS &middot; 2024</span><h3>Certified Cloud Practitioner</h3><p>Core cloud concepts, key AWS services, security and pricing.</p><a class="cert-verify" href="" target="_blank" rel="noopener">Verify credential &#8599;</a></div></div></div><h2 class="sub-head">// academy and course badges</h2>
         <div class="experience-details-container">
             <div class="about-containers">
             <div class="details-container color-container ">
                 <div class="article-container">
-                    <img src="./assets/awscloud (1).jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/awscloud (1).jpg" alt="AWS Cloud Practitioner badge" class="project-img" />
                 </div>
                 <h2 class="experience-sub-title project-title" >AWS Academy Graduate</h2>
                 <div class="tag"><a href="https://www.credly.com/badges/f929ead2-bbfe-4771-b5d3-a9b1ba2855b2/linked_in_profile">AWS Cloud Practitioner</a></div>
             </div>
             <div class="details-container  color-container ">
                 <div class="article-container ">
-                    <img src="./assets/cloud architecting.jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/cloud architecting.jpg" alt="AWS Cloud Architecting badge" class="project-img" />
                 </div>
                 <h2 class="experience-sub-title project-title" >AWS Academy Graduate </h2>
                 <div class="tag"><a href="https://www.credly.com/badges/20f2ca09-4166-4fce-a3d2-ce44b107a4e2/public_url">AWS Cloud Architecting</a></div>
             </div>
             <div class="details-container  color-container ">
                 <div class="article-container ">
-                    <img src="./assets/networking.jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/networking.jpg" alt="Cisco Networking Essentials badge" class="project-img" />
                 </div>
                 <h2 class="experience-sub-title project-title" >Cisco</h2>
                 <div class="tag"><a href="https://www.credly.com/badges/b57aee02-3e4f-4432-ab2b-decc15e9e0f9/linked_in_profile">Networking Essentials</a></div>
             </div>
             <div class="details-container color-container ">
                 <div class="article-container">
-                    <img src="./assets/google readliness.jpg" alt="Project 1" class="project-img" />
+                    <img src="./assets/google readliness.jpg" alt="Google Cloud Career Readiness badge" class="project-img" />
                 </div>
                 <h2 class="margintop experience-sub-title project-title" >Google Cloud</h2>
                 <!-- <div class="tag">92%</div> -->
@@ -190,226 +203,30 @@
 
     <section id="experience">
         <p class="section_text_p1">
-            Explore my
+            // explore my
         </p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-
-                <!-- first container  -->
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Programming Languages</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>C</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>C++</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Java</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Python</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>JDBC</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Data Structures</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>AWS Services</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>MYSQL</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>MongoDB</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>AWS Services</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        
-                    </div>
-                </div>
-
-                <!-- second container  -->
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Web Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>React JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>PHP</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>CI/ CD Pipeline</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                            <div>
-                                <h3>Devops</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#projects'" />
+        <h1 class="title">Experience &amp; Skills</h1>
+<div class="xp-wrap"><p class="xp-co">Endava Solutions, Bangalore (formerly GalaxE Solutions) &middot; Jan 2024 &ndash; Sep 2026</p>
+<div class="xp"><div class="xp-when">Latest</div><div><h3>AI Engineer</h3><ul class="case-pts"><li>Built two agentic platforms for QA teams: one turns Jira stories into reviewed Playwright automation, the other migrates Selenium and Cypress suites to Playwright.</li><li>Built an LLM system that converts user stories into structured test cases, with automated evaluation metrics and human review.</li><li>Built an n8n workflow that uses RAG over existing specs and Page Objects to generate Cypress tests without duplicating code.</li></ul></div></div>
+<div class="xp"><div class="xp-when">Before</div><div><h3>Software Tester</h3><p>Full-lifecycle QA across functional, API, database and automation testing with Selenium, Playwright, REST Assured and Cypress, plus defect investigation across teams.</p></div></div>
+<div class="xp"><div class="xp-when">Start</div><div><h3>Associate Developer (Intern)</h3><p>Joined in development during GalaxE Solutions' acquisition by Endava, then converted to a full-time role.</p></div></div>
+<h2 class="sub-head left">// how I work</h2><div class="caps"><div class="cap"><div><h3>Agentic workflows</h3><p>State machines with approval gates, retries and resumable runs, not one-shot prompts.</p></div><p class="cap-tools">LangGraph &middot; LangChain &middot; n8n &middot; MCP</p></div><div class="cap"><div><h3>Retrieval and LLM engineering</h3><p>Grounding models in a team's own standards, with structured outputs and safe fallbacks.</p></div><p class="cap-tools">RAG &middot; pgvector &middot; ChromaDB &middot; OpenAI API &middot; Llama 3.2 (Ollama) &middot; prompt engineering</p></div><div class="cap"><div><h3>Applied ML</h3><p>Picking the right model for the job and measuring it honestly.</p></div><p class="cap-tools">XGBoost &middot; scikit-learn &middot; feature engineering &middot; PSI &middot; Cohen's Kappa</p></div><div class="cap"><div><h3>Backend and product engineering</h3><p>APIs, persistence and interfaces that make AI usable by real teams.</p></div><p class="cap-tools">Python &middot; FastAPI &middot; Java &middot; Spring Boot &middot; PostgreSQL &middot; React &middot; TypeScript &middot; Docker &middot; AWS</p></div><div class="cap"><div><h3>Quality engineering</h3><p>Years in testing mean validation and evaluation are built in from the start.</p></div><p class="cap-tools">Playwright &middot; Selenium &middot; Cypress &middot; REST Assured &middot; pytest</p></div></div></div>
+<img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
 
     <section id="projects">
-        <p class="section_text_p1">Explore My Recent</p>
+        <p class="section_text_p1">// explore my recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-            <div class="details-container color-container ">
-                <div class="article-container">
-                    <img src="./assets/bank.png" alt="Project 1" class="project-img" />
-                </div>
-                <h2 class="experience-sub-title project-title" >BEE</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vaish0202/Bee.git'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vaish0202/Bee.git'">
-                        Live Demo
-                    </button>
-                </div>
-                
-            </div>
-            <div class="details-container color-container ">
-                <div class="article-container">
-                    <img src="./assets/estateelite.jpg" alt="Project 1" class="project-img" />
-                </div>
-                <h2 class="experience-sub-title project-title" >Estate Elite</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:https://github.com/Vaish0202/estateelite.git'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:/https://github.com/Vaish0202/estateelite.git'">
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-            <div class="details-container color-container ">
-                <div class="article-container">
-                    <img src="./assets/text.png" alt="Project 1" class="project-img" />
-                </div>
-                <h2 class="margintop experience-sub-title project-title" >TextOp</h2>
-                <div class="btn-container">
-                    <button class=" btn btn-color-2 project-btn" onclick="location.href='https:https://github.com/Vaish0202/textOp'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https:https://github.com/Vaish0202/textOp'">
-                        Live Demo
-                    </button>
-                </div>
-            </div></div>
-            
-
-        </div>
-        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#academics'" />
+<div class="work"><article class="case"><div class="case-n">01</div><div class="case-body"><div class="case-meta">Personal project &middot; Research</div><h3>QA Assistant</h3><p class="case-sum">An agentic system that decides whether a failing test is an application bug or a problem in the test code, then drafts the Jira ticket or the fix.</p><ul class="case-pts"><li>XGBoost on 52 engineered features makes the call in under a millisecond; Llama 3.2 writes the explanation and fix suggestions.</li><li>Five LangGraph agents, with a human approval step before any Jira ticket is created.</li><li>76.7% accuracy on a 30-case evaluation, up from a 60% LLM-only baseline. Published as a preprint.</li></ul><p class="case-stack">LangGraph &middot; XGBoost &middot; Llama 3.2 &middot; Ollama &middot; FastAPI &middot; React &middot; Jira API</p><div class="case-links"><a href="https://github.com/Vaish0202/qa-assistant" target="_blank" rel="noopener">GitHub &#8599;</a><a href="https://doi.org/10.5281/zenodo.22793445" target="_blank" rel="noopener">Paper &#8599;</a></div></div></article><article class="case"><div class="case-n">02</div><div class="case-body"><div class="case-meta">Endava &middot; Proof of concept</div><h3>AI-Powered Test Automation Platform</h3><p class="case-sum">Takes a Jira story to reviewed Playwright BDD automation, with a person approving at the key steps.</p><ul class="case-pts"><li>LangGraph workflow: requirement check, browser discovery, test design, generation, validation, healing and execution.</li><li>RAG over pgvector supplies the team's testing standards, and the LLM returns structured, schema-checked output.</li><li>PostgreSQL stores every run, so a workflow can pause for approval and resume where it stopped.</li></ul><p class="case-stack">LangGraph &middot; OpenAI &middot; FastAPI &middot; React &middot; PostgreSQL &middot; pgvector &middot; MCP &middot; Playwright</p></div></article><article class="case"><div class="case-n">03</div><div class="case-body"><div class="case-meta">Endava &middot; Proof of concept</div><h3>Test Framework Migration Platform</h3><p class="case-sum">Converts Selenium/Cucumber and Cypress suites into Playwright frameworks that actually run.</p><ul class="case-pts"><li>Parses a repository into an intermediate representation and dependency graph; a deterministic planner orders the work.</li><li>Generation mixes deterministic transforms with LLM calls, checked by static validation and sandboxed test runs.</li><li>Failures are classified and repaired, and any repair that causes regressions is rolled back.</li></ul><p class="case-stack">LangGraph &middot; OpenAI &middot; FastAPI &middot; Tree-sitter &middot; ChromaDB &middot; Redis &middot; Docker</p></div></article></div>
+<img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#research'" />
     </section>
+
+    <section id="research">
+        <p class="section_text_p1">// published</p>
+        <h1 class="title">Research</h1>
+<ol class="pubs"><li><span class="pub-y">2026 &middot; Preprint</span><a href="https://doi.org/10.5281/zenodo.22793445" target="_blank" rel="noopener">QA Assistant: An Agentic AI System for Intelligent Test Failure Classification and Automated Bug Diagnosis</a><p>A hybrid XGBoost and Llama 3.2 system; 76.7% accuracy on 30 labeled test cases.</p></li>
+<li><span class="pub-y">2026 &middot; Preprint</span><a href="https://doi.org/10.5281/zenodo.22902516" target="_blank" rel="noopener">When to Use ML, LLM, or Hybrid Approaches for Software Test Failure Classification: A Framework-Aware Comparative Study</a><p>Pure ML, pure LLM and hybrid pipelines compared across four testing frameworks; no single method wins.</p></li></ol>
+</section>
     
     <section id="academics">
         <div class="hobbies-container article-container">
@@ -445,12 +262,12 @@
         <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
     <section id="contact">
-        <p class="section_text_p1">Get in Touch</p>
+        <p class="section_text_p1">// get in touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="email" class="icon contact-icon email-icon" />
-                <p><a href="mailto:vaishnavilikhe2798@gmail.com">Vaishnavilikhe2798@gmail.com</a></p>
+                <p><a href="mailto:vaishnavilikhe0000@gmail.com">vaishnavilikhe0000@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
@@ -459,6 +276,7 @@
         </div>
     </section>
 
+    <button id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">&#9680;</button>
     <footer>
         <nav>
             <div class="nav-links-container">
@@ -467,11 +285,12 @@
                     <li class="magnet"> <a href="#education">Academics</a></li>
                     <li class="magnet"> <a href="#experience">Skills</a></li>
                     <li class="magnet"> <a href="#projects">Projects</a></li>
+<li class="magnet"> <a href="#research">Research</a></li>
                     <li class="magnet"> <a href="#contact">Contact</a></li>
                </ul>
             </div>
         </nav>
-        <p>Copyright&#169; 2024 Vaishnavi Likhe. All Rights Reserved.</p>
+        <p>Copyright&#169; 2026 Vaishnavi Likhe. All Rights Reserved.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
